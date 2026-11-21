@@ -53,4 +53,5 @@ dev = [
     "isort>=9.0.2",
     "mypy>=2.4.1",
     "pep8-naming>=0.15.1",
+    "pre-commit>=4.7.0",
 ]
