@@ -33,6 +33,13 @@ skip = [".venv"]
 line-length = 79
 target-version = ["py313"]
 
+[tool.mypy]
+python_version = "3.13"
+strict = true
+disallow_any_generics = true
+disallow_subclassing_any = true
+ignore_missing_imports = true
+
 [dependency-groups]
 dev = [
     "black>=26.10.1",
@@ -44,5 +51,6 @@ dev = [
     "flake8-pyproject>=1.2.4",
     "flake8-quotes>=3.4.0",
     "isort>=9.0.2",
+    "mypy>=2.4.1",
     "pep8-naming>=0.15.1",
 ]
