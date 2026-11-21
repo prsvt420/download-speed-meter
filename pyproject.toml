@@ -29,8 +29,13 @@ profile = "black"
 line_length = 79
 skip = [".venv"]
 
+[tool.black]
+line-length = 79
+target-version = ["py313"]
+
 [dependency-groups]
 dev = [
+    "black>=26.10.1",
     "flake8>=7.5.0",
     "flake8-bandit>=4.1.1",
     "flake8-bugbear>=26.11.16",
