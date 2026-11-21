@@ -1,0 +1,10 @@
+[project]
+name = "download-speed-meter"
+version = "0.1.0"
+description = "Консольная утилита для измерения скорости скачивания по указанному URL"
+readme = "README.md"
+authors = [
+    { name = "Denis Tokarev", email = "wf.denis.tokarev@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
